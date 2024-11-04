@@ -438,12 +438,52 @@ const AboutMe = (props) => {
             <div className="work-section-row">
               <div className="work-section-dot">&#183;</div>
               <div className="work-section-detail">
+                Tech Lead for HCM (Headcount Management Tool)
+                <div className="work-section-small-detail">
+                  <div className="work-section-small-detail-dot">-</div>
+                  <div className="work-section-small-detail-text">
+                    An internal tool used by all Uber Managers, ELTs, CoS to<br />
+                    create / manage / track headcounts.
+                  </div>
+                </div>
+                <div className="work-section-small-detail">
+                  <div className="work-section-small-detail-dot tech-dot">*</div>
+                  <div className="work-section-small-detail-text">
+                    A total of 300+ users and 3500+ headcounts (approximately 450million) created within one year.
+                    <br />
+                    Helped Uber save 45-60 minutes per week per user / 1.5h per headcount.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </h2>
+        </div>
+
+        <div
+          className="paragraph-div mt3vh mb3vh"
+          data-aos="flip-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="600"
+          data-aos-easing="ease"
+        >
+          <h2 className="section-paragraph work-section-text">
+            <div className="work-section-row">
+              <div className="work-section-dot">&#183;</div>
+              <div className="work-section-detail">
                 Developed and Maintained uRate
                 <div className="work-section-small-detail">
                   <div className="work-section-small-detail-dot">-</div>
                   <div className="work-section-small-detail-text">
                     An Uber feedback system used across all Uber's applications
-                    BOTH internally and externally.
+                    BOTH internally and externally (Uber Eats Manager, Globally launched).
+                  </div>
+                </div>
+                <div className="work-section-small-detail">
+                  <div className="work-section-small-detail-dot">-</div>
+                  <div className="work-section-small-detail-text">
+                    Topic Modeling:
+                    <br />
+                    Utilized fine-tuned model (based on llama3), categorizing all feedbacks into different categories, and providing insights to the business.
                   </div>
                 </div>
                 <div className="work-section-small-detail">
@@ -451,10 +491,50 @@ const AboutMe = (props) => {
                     *
                   </div>
                   <div className="work-section-small-detail-text">
-                    Front end UI using FusionJS <br />
-                    Widget using JavaScript <br />
-                    Back end using NodeJS and Go <br />
-                    Database using MySQL
+                    Processed ~6500 feedback / ratings per day
+                  </div>
+                </div>
+                <div className="work-section-small-detail">
+                  <div className="work-section-small-detail-dot tech-dot">
+                    *
+                  </div>
+                  <div className="work-section-small-detail-text">
+                    Helped providing insights for 50+ applications to boost CSAT to 4.2+ (out of 5)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </h2>
+        </div>
+
+        <div
+          className="paragraph-div mt3vh mb3vh"
+          data-aos="flip-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="600"
+          data-aos-easing="ease"
+        >
+          <h2 className="section-paragraph work-section-text">
+            <div className="work-section-row">
+              <div className="work-section-dot">&#183;</div>
+              <div className="work-section-detail">
+                Tech Lead for Envision (dashboard collection tool)
+                <div className="work-section-small-detail">
+                  <div className="work-section-small-detail-dot">-</div>
+                  <div className="work-section-small-detail-text">
+                    A federated dashboard portal, that brings together diverse data sources, including BI tools, gSheets and internal sites into a single, responsive grid layout interface. 
+                  </div>
+                </div>
+                <div className="work-section-small-detail">
+                  <div className="work-section-small-detail-dot tech-dot">*</div>
+                  <div className="work-section-small-detail-text">
+                    A total of 175+ L7+, and 385+ L5+ users onboarded within the first 3 months.
+                  </div>
+                </div>
+                <div className="work-section-small-detail">
+                  <div className="work-section-small-detail-dot tech-dot">*</div>
+                  <div className="work-section-small-detail-text">
+                    Saved 30-60 minutes per week per user to insights for business and engineering decision making
                   </div>
                 </div>
               </div>
@@ -506,20 +586,6 @@ const AboutMe = (props) => {
                   <div className="work-section-small-detail-text">
                     A Verizon Platform for users to manage and purchase their
                     IoT Devices.
-                  </div>
-                </div>
-                <div className="work-section-small-detail">
-                  <div className="work-section-small-detail-dot tech-dot">
-                    *
-                  </div>
-                  <div className="work-section-small-detail-text">
-                    Front end using Angular 2+ <br />
-                    Static Content using AEM{" "}
-                    <span className="small-text">
-                      (Adobe Experience Manager)
-                    </span>{" "}
-                    <br />
-                    Back end using NodeJS <br />
                   </div>
                 </div>
               </div>
@@ -1145,7 +1211,7 @@ const AboutMe = (props) => {
             <div className="work-section-row">
               <div className="work-section-dot tech-dot">*</div>
               <div className="work-section-detail">
-                Tech Stacks: Python - Tensorflow1
+                Tech Stacks: Python - Tensorflow
               </div>
             </div>
           </h2>
@@ -1162,7 +1228,7 @@ const AboutMe = (props) => {
         >
           <h1 className="section-paragraph section-title">
             <small> (005) </small> <br />
-            WANNA TALK TO THE <span className="squad-text">SQUAD</span>?
+            Small CHAT?
           </h1>
         </div>
 
@@ -1300,7 +1366,7 @@ const AboutMe = (props) => {
         </div>
       </div>
 
-      <div id="stalk-you">
+      {/* <div id="stalk-you">
         <div
           className="paragraph-div mb5vh"
           data-aos="zoom-out-up"
@@ -1402,7 +1468,7 @@ const AboutMe = (props) => {
             </Popup>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
